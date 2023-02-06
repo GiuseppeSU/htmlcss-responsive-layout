@@ -91,7 +91,7 @@ main {
 
     }
 
-    #first.cards {
+    #first .cards {
         display: flex;
         flex-wrap: wrap;
         margin-left: -0.75rem;
@@ -107,15 +107,7 @@ main {
     #first .card:first-child {
         width: calc((100% / 3 * 2) - 1.5rem);
     }
-
-        #first .card:first-child {
-         display: flex;
-        }
-
-    #first .card:first-child>div {
-    width: 50%;
-    }
-
+    
     #third .card{
         display: flex;
     }
@@ -133,8 +125,16 @@ main {
 
 @media screen and (min-width:992px) {
     .container {
-        max-width: 940px;
+        max-width: 960px;
     }
+
+    #first .card:first-child {
+        display: flex;
+       }
+
+    #first .card:first-child>div {
+    width: 50%;
+   }
 
 
     #second .columns {
