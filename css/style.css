@@ -1,59 +1,147 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* MEDIA QUERY */
-@media screen and (min-width:768px){
-    .container{
-        max-width: 730px;
-    }
-
-    
-}
-
-@media screen and (min-width:992px){
-    .container{
-        max-width: 960px;
-    }
-    
-    
+html {
+    font-size: 16px;
 }
 
 
-
-@media screen and (min-width:1200px){
-    .container{
-        max-width: 1170px;
-    }
-    
-    
+.flex {
+    display: flex;
 }
 
-/* FINE MEDIA QUERY */
+.space-between {
+    justify-content: space-between;
+}
 
-header.top-header{
-    background-color: rgb(0, 132, 253);
+.align-items {
+    align-items: center;
+}
+
+header.top-header {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+    background-color: rgb(0, 132, 253);
+
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.container {
     margin: auto;
+    max-width: 600px;
+
 }
 
-.logo,.nav-bar{
+.logo, .nav-bar {
     background-color: red;
     height: 80px;
     padding: 1rem;
 }
 
-main{
+main {
     padding-top: 100px;
 }
+
+.card {
+    margin-bottom: 20px;
+
+}
+
+.small-box {
+    background-color: blue;
+    height: 80px;
+    padding: 1rem;
+}
+
+.small-box2 {
+    background-color: coral;
+    height: 80px;
+    padding: 1rem;
+}
+
+
+
+#second {
+    background-color: rgb(151, 146, 228);
+    padding: 2rem;
+}
+
+#second .colum {
+    margin: 1rem 0;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (min-width:768px) {
+    .container {
+        max-width: 740px;
+
+    }
+
+    #first .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+        #first .card {
+        width: calc((100% / 3) - 1.5rem);
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        background-color: blue;
+    }
+
+    #first .card:first-child {
+        width: calc((100% / 3 * 2) - 1.5rem);
+    }
+
+        #first .card:first-child {
+         display: flex;
+        }
+
+    #first .card:first-child>div {
+    width: 50%;
+}
+}
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 940px;
+    }
+
+
+    #second .columns {
+        display: flex;
+        padding-left: 6rem;
+        padding-right: 6rem;
+        align-items: flex-end;
+    }
+
+    #second .colum {
+        width: calc(50% - 2rem);
+        margin: 1rem;
+    }
+
+
+
+    @media screen and (min-width:1200px) {
+        .container {
+            max-width: 1170px;
+        }
+
+
+    }
+}
+    
+
+    /* FINE MEDIA QUERY */
