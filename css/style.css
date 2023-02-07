@@ -272,7 +272,13 @@ main {
 #fifth .card{
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
 
+#fifth .card img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 #sixth{
