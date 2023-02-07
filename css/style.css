@@ -48,6 +48,8 @@ main {
 }
 
 #first .card {
+    background-color: blue;
+
     margin-bottom: 20px;
 
 }
@@ -75,13 +77,30 @@ main {
     margin: 1rem 0;
 }
 
-#third{
+#third {
     padding: 2rem 0;
 }
 
-#third .card{
+#third .card {
     margin: 2rem 0;
 }
+
+#fourd{
+    background-color: rgb(151, 146, 228);
+    padding: 4rem 0;
+}
+
+.cards{
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+#fourd .card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 
 
 /* MEDIA QUERY */
@@ -97,26 +116,42 @@ main {
         margin-left: -0.75rem;
         margin-right: -0.75rem;
     }
-        #first .card {
-        width: calc((100% / 3) - 1.5rem);
+
+    #first .card {
+        width: calc( (100% / 3) - 1.5rem);
         margin-left: 0.75rem;
         margin-right: 0.75rem;
-        background-color: blue;
     }
 
     #first .card:first-child {
-        width: calc((100% / 3 * 2) - 1.5rem);
+        width: calc( (100% / 3 * 2) - 1.5rem);
     }
-    
-    #third .card{
+
+    #third .card {
         display: flex;
     }
 
 
-    #third .card div:last-child{
+    #third .card div:last-child {
         flex-grow: 1;
     }
+
+    #fourd .cards{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    #fourd .card{
+        margin-left: 40px;
+        margin-right: 20px;
+        width: calc(80% /2);
+    }
+
 }
+
+
+
 
 
 
@@ -130,11 +165,11 @@ main {
 
     #first .card:first-child {
         display: flex;
-       }
+    }
 
     #first .card:first-child>div {
-    width: 50%;
-   }
+        width: 50%;
+    }
 
 
     #second .columns {
@@ -149,6 +184,18 @@ main {
         margin: 1rem;
     }
 
+    #fourd .cards{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+
+    #fourd .card{
+        margin-left: 40px;
+        margin-right: 20px;
+        width: calc(80% /3);
+    }
+
 
 
     @media screen and (min-width:1200px) {
@@ -159,6 +206,6 @@ main {
 
     }
 }
-    
 
-    /* FINE MEDIA QUERY */
+
+/* FINE MEDIA QUERY */
