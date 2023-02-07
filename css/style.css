@@ -33,13 +33,13 @@ header.top-header {
 
 .container {
     margin: auto;
-    max-width: 600px;
+    max-width: 400px;
 
 }
 
 .logo, .nav-bar{
     height: 80px;
-    padding: 15px 0px;
+    padding: 20px 10px;
 
 }
 
@@ -54,7 +54,72 @@ header.top-header {
     color: white;
 }
 
+.blu-text{
+    color:rgb(0, 132, 253);
+}
+
 /* COLORI TESTI FINE */
+
+
+/* SIZE TESTI */
+.small{
+    font-size: 13px;
+}
+
+.med{
+    font-size:16px;
+}
+
+.big{
+    font-size: 30px;
+}
+
+.biggest{
+    font-size: 60px
+}
+
+.text{
+    text-align: center;
+}
+
+.text-in{
+    text-indent:1px;
+}
+
+.pad{
+    padding: 20px 60px;
+}
+
+.pad-top{
+    padding:20px 0px;
+}
+
+.smuss{
+    border-radius: 10px;
+}
+
+.width{
+    width: 70%;
+    margin: auto;
+}
+
+.spacing{
+    line-height: 1.6;
+}
+
+.fa-arrow-down{
+    width: 40px;
+    border-radius: 50%;
+    background-color:rgb(151, 146, 228) ;
+    padding: 10px;
+    text-align: center;
+
+    
+    
+}
+
+
+/* SIZE TESTI FINE */
 
 ul{
     list-style: none ;
@@ -70,49 +135,58 @@ ul li {
 /* BOTTONI */
 
 .btn-white{
-    box-shadow:inset 0px 0px 0px 0px #ffffff;
-	background:linear-gradient(to bottom, #ffffff 5%, #ffffff 100%);
-	background-color:#ffffff;
+    background-color:white;
 	border-radius:15px;
-	cursor:pointer;
-	color:#000000;
-	font-family:Arial;
+	color:black;
 	font-size:18px;
 	padding:5px 15px;
-	text-decoration:none;
-	text-shadow:0px 0px 0px #ffffff;
+    text-decoration: none;
+   
 }
+
+.btn-blu{
+	background-color:rgb(0, 132, 253);
+	border-radius:15px;
+	color:white;
+	font-size:18px;
+	padding:5px 15px;
+}
+
 /* BOTTONI FINE */
-
-
-
-
-
-
-
-
-
-
 
 main {
     padding-top: 100px;
 }
 
+.card{
+    padding: 20px;
+}
+
 #first .card {
-    background-color: blue;
+    background-color: rgb(181, 221, 255);
     margin-bottom: 20px;
+    
 }
 
 .small-box {
-    background-color: blue;
+    background-color: rgb(181, 221, 255);
     height: 80px;
     padding: 1rem;
 }
 
 .small-box2 {
-    background-color: coral;
     height: 80px;
     padding: 1rem;
+}
+
+#first .card h1{
+    padding: 20px 0px;
+}
+
+
+
+.phone img{
+    
 }
 
 
@@ -122,8 +196,20 @@ main {
     padding: 2rem;
 }
 
-#second .colum {
-    margin: 1rem 0;
+
+.colum img{
+    margin-left: 30px;
+    
+}
+.colum2{
+    background-color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+   
+}
+
+.colum img{
+    width: 80%;
 }
 
 #third {
