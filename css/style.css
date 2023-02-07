@@ -62,6 +62,10 @@ header.top-header {
     color: rgb(151, 146, 228);
 }
 
+.grey{
+    color:rgb(155, 155, 155) ;
+}
+
 /* COLORI TESTI FINE */
 
 
@@ -154,6 +158,17 @@ ul li {
 	color:white;
 	font-size:18px;
 	padding:5px 15px;
+}
+
+.btn-purple{
+    background-color: rgb(151, 146, 228);
+	border-radius:15px;
+	color:white;
+	font-size:18px;
+	padding:0px 15px;
+    margin-top: 10px;
+    
+
 }
 
 /* BOTTONI FINE */
@@ -250,6 +265,8 @@ main {
 #fourd .card{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 30px;
 }
 
 #fifth .card{
