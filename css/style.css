@@ -27,6 +27,7 @@ header.top-header {
     top: 0;
     width: 100%;
     background-color: rgb(0, 132, 253);
+    z-index: 1111111;
 
 }
 
@@ -34,6 +35,7 @@ header.top-header {
 .container {
     margin: auto;
     max-width: 400px;
+   
 
 }
 
@@ -64,6 +66,15 @@ header.top-header {
 
 .grey{
     color:rgb(155, 155, 155) ;
+}
+
+.lightgrey{
+    color: rgb(213, 212, 244);
+}
+
+.yellow{
+    color: rgb(253, 193, 95);
+
 }
 
 /* COLORI TESTI FINE */
@@ -111,6 +122,11 @@ header.top-header {
     margin: auto;
 }
 
+.width2{
+    width: 30%;
+    margin: auto;
+}
+
 .spacing{
     line-height: 1.6;
 }
@@ -149,15 +165,29 @@ ul li {
 	font-size:18px;
 	padding:5px 15px;
     text-decoration: none;
+    border: none;
    
 }
+
+.btn-white2{
+    background-color:white;
+	border-radius:15px;
+	color: rgb(151, 146, 228);
+	font-size:18px;
+	padding:10px 30px;
+    text-decoration: none;
+    border: none;
+   
+}
+
 
 .btn-blu{
 	background-color:rgb(0, 132, 253);
 	border-radius:15px;
 	color:white;
 	font-size:18px;
-	padding:5px 15px;
+	padding:10px 50px;
+    border: none;
 }
 
 .btn-purple{
@@ -167,6 +197,7 @@ ul li {
 	font-size:18px;
 	padding:0px 15px;
     margin-top: 10px;
+    border: none;
     
 
 }
@@ -193,13 +224,37 @@ main {
     padding: 1rem;
 }
 
-/* .small-box2 {
-    height: 80px;
-    padding: 1rem;
-} */
 
 #first .card h1{
     padding: 20px 0px;
+}
+
+#first .card{
+    text-align: center;
+   
+}
+
+#first .special{
+    height: 600px;
+   
+}
+
+
+
+
+#first .card .phone{
+    width: 300px;
+    padding-top: 20px;
+    
+    
+}
+
+
+
+
+
+.fa-apple{
+    margin-right: 10px;
 }
 
 
@@ -322,17 +377,33 @@ main {
         flex-wrap: wrap;
         margin-left: -0.75rem;
         margin-right: -0.75rem;
+        
     }
 
     #first .card {
         width: calc( (100% / 3) - 1.5rem);
         margin-left: 0.75rem;
         margin-right: 0.75rem;
+        
+    }
+
+    #first .special{
+        height: 585px;
     }
 
     #first .card:first-child {
         width: calc( (100% / 3 * 2) - 1.5rem);
     }
+
+    #first .card{
+        text-align: left;
+    }
+
+    #first .card img{
+        text-align: left;
+    }
+    
+    
 
     #second .colum{
         width: 50%;
@@ -379,15 +450,12 @@ main {
         width: calc(80% /2);
     }
 
+    #seventh p{
+        width: 50%;
+        margin: auto;
+    }
+
 }
-
-
-
-
-
-
-
-
 
 @media screen and (min-width:992px) {
     .container {
@@ -398,16 +466,26 @@ main {
         display: none;
     }
 
-    #first .card:first-child {
-        display: flex;
+    #first .card{
+        height: 440px;
+    }
+    
+
+    #first .cards .text-container{
+        float: left;
+        width: 45%;
     }
 
-    #first .card:first-child>div {
-        width: 50%;
+    #first .cards .phone-container {
+        float: right;
+        
+        
     }
 
-
-    #second .columns {
+    #first .cards .phone-container img {
+        translate: 0px 65px;
+    }
+     #second .columns {
         display: flex;
         padding-left: 6rem;
         padding-right: 6rem;
@@ -428,6 +506,26 @@ main {
         width: calc(80% /3);
     }
 
+    #fifth .card{
+        width: 50%;
+    }
+
+
+
+    #fifth .card2{
+        width: 30%;
+    }
+
+    
+    #fifth .card2 img{
+        margin-left: 80px
+    }
+
+    #seventh p{
+        width: 50%;
+        margin: auto;
+    }
+
 
 
     @media screen and (min-width:1200px) {
@@ -443,8 +541,32 @@ main {
             display: none;
         }
 
+        #seventh p{
+            width: 50%;
+            margin: auto;
+        }
 
-    }
+        #first .cards .text-container{
+            float: left;
+            width: 50%;
+            
+        }
+    
+        #first .cards .phone-container{
+            float: right;
+            
+        }
+
+        #first .cards .phone-container img {
+            translate: 0px 25px;
+    
+
+        }
+
+        #first .card{
+            height: 400px;
+        }
+}
 }
 
 
