@@ -92,13 +92,18 @@ main {
 
 .cards{
     border: 1px solid black;
-    width: 100%;
 }
 
 
 #fourd .card{
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+#fifth .card{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
 }
 
 
@@ -143,6 +148,17 @@ main {
     }
 
     #fourd .card{
+        margin-left: 40px;
+        margin-right: 20px;
+        width: calc(80% /2);
+    }
+
+    #fifth .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #fifth .card{
         margin-left: 40px;
         margin-right: 20px;
         width: calc(80% /2);
