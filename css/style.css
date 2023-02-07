@@ -90,11 +90,6 @@ main {
     padding: 4rem 0;
 }
 
-.cards{
-    border: 1px solid black;
-}
-
-
 #fourd .card{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -104,6 +99,14 @@ main {
     margin-top: 2rem;
     margin-bottom: 2rem;
 
+}
+
+#sixth{
+    background-color: rgb(151, 146, 228);
+}
+
+#sixth .started{
+    text-align: center;
 }
 
 
