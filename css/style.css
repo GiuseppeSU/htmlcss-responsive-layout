@@ -58,6 +58,10 @@ header.top-header {
     color:rgb(0, 132, 253);
 }
 
+.purple-text{
+    color: rgb(151, 146, 228);
+}
+
 /* COLORI TESTI FINE */
 
 
@@ -174,10 +178,10 @@ main {
     padding: 1rem;
 }
 
-.small-box2 {
+/* .small-box2 {
     height: 80px;
     padding: 1rem;
-}
+} */
 
 #first .card h1{
     padding: 20px 0px;
@@ -197,19 +201,25 @@ main {
 }
 
 
-.colum img{
+.colum1 img{
     margin-left: 30px;
-    
+    width: 80%;
 }
+    
+
 .colum2{
     background-color: white;
     border-radius: 30px;
+    text-align: center;
     margin-top: 20px;
+    margin-left: -5px;
+    padding-left: 5px;
+
    
 }
 
-.colum img{
-    width: 80%;
+.colum2 img{
+    width: 50%;
 }
 
 #third {
@@ -217,7 +227,19 @@ main {
 }
 
 #third .card {
+    background-color: rgb(151, 146, 228) ;
     margin: 2rem 0;
+    border-radius: 30px;
+   
+    
+}
+
+#third .card img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
 }
 
 #fourd{
@@ -289,9 +311,22 @@ main {
         width: calc( (100% / 3 * 2) - 1.5rem);
     }
 
+    #second .colum{
+        width: 50%;
+        margin: auto;
+        padding: 10px 0px;
+    }
+
     #third .card {
         display: flex;
+        
     }
+
+    #third .card .name{
+        display: inline;
+    }
+
+  
 
 
     #third .card div:last-child {
@@ -356,10 +391,7 @@ main {
         align-items: flex-end;
     }
 
-    #second .colum {
-        width: calc(50% - 2rem);
-        margin: 1rem;
-    }
+ 
 
     #fourd .cards{
         display: flex;
