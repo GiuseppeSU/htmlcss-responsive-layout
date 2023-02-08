@@ -399,13 +399,16 @@ main {
 
     }
 
+    #third .autors{
+        text-align: left;
+        padding: 20px;
+        
+    }
+
     #third .card .name {
         display: inline;
     }
-
-
-
-
+    
     #third .card div:last-child {
         flex-grow: 1;
     }
