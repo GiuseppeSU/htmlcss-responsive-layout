@@ -35,44 +35,44 @@ header.top-header {
 .container {
     margin: auto;
     max-width: 400px;
-   
+
 
 }
 
-.logo, .nav-bar{
+.logo, .nav-bar {
     height: 80px;
     padding: 20px 10px;
 
 }
 
-.hamburger{
+.hamburger {
     color: white;
     font-size: 20px;
 }
 
 /* COLORI TESTI */
 
-.white-txt{
+.white-txt {
     color: white;
 }
 
-.blu-text{
-    color:rgb(0, 132, 253);
+.blu-text {
+    color: rgb(0, 132, 253);
 }
 
-.purple-text{
+.purple-text {
     color: rgb(151, 146, 228);
 }
 
-.grey{
-    color:rgb(155, 155, 155) ;
+.grey {
+    color: rgb(155, 155, 155);
 }
 
-.lightgrey{
+.lightgrey {
     color: rgb(213, 212, 244);
 }
 
-.yellow{
+.yellow {
     color: rgb(253, 193, 95);
 
 }
@@ -81,124 +81,124 @@ header.top-header {
 
 
 /* SIZE TESTI */
-.small{
+.small {
     font-size: 13px;
 }
 
-.med{
-    font-size:16px;
+.med {
+    font-size: 16px;
 }
 
-.big{
+.big {
     font-size: 30px;
 }
 
-.biggest{
+.biggest {
     font-size: 60px
 }
 
-.text{
+.text {
     text-align: center;
 }
 
-.text-in{
-    text-indent:1px;
+.text-in {
+    text-indent: 1px;
 }
 
-.pad{
+.pad {
     padding: 20px 60px;
 }
 
-.pad-top{
-    padding:20px 0px;
+.pad-top {
+    padding: 20px 0px;
 }
 
-.smuss{
+.smuss {
     border-radius: 10px;
 }
 
-.width{
+.width {
     width: 70%;
     margin: auto;
 }
 
-.width2{
+.width2 {
     width: 30%;
     margin: auto;
 }
 
-.spacing{
+.spacing {
     line-height: 1.6;
 }
 
-.fa-arrow-down{
+.fa-arrow-down {
     width: 40px;
     border-radius: 50%;
-    background-color:rgb(151, 146, 228) ;
+    background-color: rgb(151, 146, 228);
     padding: 10px;
     text-align: center;
 
-    
-    
+
+
 }
 
 
 /* SIZE TESTI FINE */
 
-ul{
-    list-style: none ;
+ul {
+    list-style: none;
     display: flex;
     padding: 16px;
 }
 
 ul li {
-    padding-left:20px;
+    padding-left: 20px;
     color: white;
 }
 
 /* BOTTONI */
 
-.btn-white{
-    background-color:white;
-	border-radius:15px;
-	color:black;
-	font-size:18px;
-	padding:5px 15px;
+.btn-white {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    font-size: 18px;
+    padding: 5px 15px;
     text-decoration: none;
     border: none;
-   
+
 }
 
-.btn-white2{
-    background-color:white;
-	border-radius:15px;
-	color: rgb(151, 146, 228);
-	font-size:18px;
-	padding:10px 30px;
+.btn-white2 {
+    background-color: white;
+    border-radius: 15px;
+    color: rgb(151, 146, 228);
+    font-size: 18px;
+    padding: 10px 30px;
     text-decoration: none;
     border: none;
-   
+
 }
 
 
-.btn-blu{
-	background-color:rgb(0, 132, 253);
-	border-radius:15px;
-	color:white;
-	font-size:18px;
-	padding:10px 50px;
+.btn-blu {
+    background-color: rgb(0, 132, 253);
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 50px;
     border: none;
 }
 
-.btn-purple{
+.btn-purple {
     background-color: rgb(151, 146, 228);
-	border-radius:15px;
-	color:white;
-	font-size:18px;
-	padding:0px 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+    padding: 0px 15px;
     margin-top: 10px;
     border: none;
-    
+
 
 }
 
@@ -208,14 +208,14 @@ main {
     padding-top: 100px;
 }
 
-.card{
+.card {
     padding: 20px;
 }
 
 #first .card {
     background-color: rgb(181, 221, 255);
     margin-bottom: 20px;
-    
+
 }
 
 .small-box {
@@ -225,45 +225,28 @@ main {
 }
 
 
-#first .card h1{
+#first .card h1 {
     padding: 20px 0px;
 }
 
-#first .card{
+#first .card {
     text-align: center;
-   
+
 }
 
-#first .special{
+#first .special {
     height: 600px;
-   
+
 }
 
-
-
-
-#first .card .phone{
+#first .card .phone {
     width: 300px;
     padding-top: 20px;
-    
-    
 }
 
-
-
-
-
-.fa-apple{
+.fa-apple {
     margin-right: 10px;
 }
-
-
-
-.phone img{
-    
-}
-
-
 
 #second {
     background-color: rgb(151, 146, 228);
@@ -271,13 +254,13 @@ main {
 }
 
 
-.colum1 img{
+.colum1 img {
     margin-left: 30px;
     width: 80%;
 }
-    
 
-.colum2{
+
+.colum2 {
     background-color: white;
     border-radius: 30px;
     text-align: center;
@@ -285,10 +268,10 @@ main {
     margin-left: -5px;
     padding-left: 5px;
 
-   
+
 }
 
-.colum2 img{
+.colum2 img {
     width: 50%;
 }
 
@@ -297,55 +280,55 @@ main {
 }
 
 #third .card {
-    background-color: rgb(151, 146, 228) ;
+    background-color: rgb(151, 146, 228);
     margin: 2rem 0;
     border-radius: 30px;
-   
-    
+
+
 }
 
-#third .card img{
+#third .card img {
     object-fit: cover;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    
+
 }
 
-#fourd{
+#fourd {
     background-color: rgb(151, 146, 228);
     padding: 4rem 0;
 }
 
-#fourd .card{
+#fourd .card {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background-color: white;
     border-radius: 30px;
 }
 
-#fifth .card{
+#fifth .card {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-#fifth .card img{
+#fifth .card img {
     object-fit: cover;
     width: 150px;
     height: 150px;
     border-radius: 50%;
 }
 
-#sixth{
+#sixth {
     background-color: rgb(151, 146, 228);
     padding-top: 30px;
 }
 
- .started{
+.started {
     text-align: center;
 }
 
-#seventh{
+#seventh {
     background-color: rgb(51, 51, 51);
     padding-top: 20px;
 }
@@ -355,11 +338,11 @@ main {
 /* MEDIA QUERY */
 
 @media screen and (max-width:768px) {
-    .nav-bar{
+    .nav-bar {
         display: none;
     }
 
-    
+
 }
 
 @media screen and (min-width:768px) {
@@ -368,7 +351,7 @@ main {
 
     }
 
-    .nav-bar{
+    .nav-bar {
         display: none;
     }
 
@@ -377,35 +360,35 @@ main {
         flex-wrap: wrap;
         margin-left: -0.75rem;
         margin-right: -0.75rem;
-        
+
     }
 
     #first .card {
-        width: calc( (100% / 3) - 1.5rem);
+        width: calc((100% / 3) - 1.5rem);
         margin-left: 0.75rem;
         margin-right: 0.75rem;
-        
+
     }
 
-    #first .special{
+    #first .special {
         height: 585px;
     }
 
     #first .card:first-child {
-        width: calc( (100% / 3 * 2) - 1.5rem);
+        width: calc((100% / 3 * 2) - 1.5rem);
     }
 
-    #first .card{
+    #first .card {
         text-align: left;
     }
 
-    #first .card img{
+    #first .card img {
         text-align: left;
     }
-    
-    
 
-    #second .colum{
+
+
+    #second .colum {
         width: 50%;
         margin: auto;
         padding: 10px 0px;
@@ -413,44 +396,44 @@ main {
 
     #third .card {
         display: flex;
-        
+
     }
 
-    #third .card .name{
+    #third .card .name {
         display: inline;
     }
 
-  
+
 
 
     #third .card div:last-child {
         flex-grow: 1;
     }
 
-    #fourd .cards{
+    #fourd .cards {
         display: flex;
         flex-wrap: wrap;
-       
+
     }
 
-    #fourd .card{
+    #fourd .card {
         margin-left: 40px;
         margin-right: 20px;
         width: calc(80% /2);
     }
 
-    #fifth .cards{
+    #fifth .cards {
         display: flex;
         flex-wrap: wrap;
     }
 
-    #fifth .card{
+    #fifth .card {
         margin-left: 40px;
         margin-right: 20px;
         width: calc(80% /2);
     }
 
-    #seventh p{
+    #seventh p {
         width: 50%;
         margin: auto;
     }
@@ -462,111 +445,110 @@ main {
         max-width: 960px;
     }
 
-    .nav-bar{
+    .nav-bar {
         display: none;
     }
 
-    #first .card{
+    #first .card {
         height: 440px;
     }
-    
 
-    #first .cards .text-container{
+
+    #first .cards .text-container {
         float: left;
         width: 45%;
     }
 
     #first .cards .phone-container {
         float: right;
-        
-        
+
+
     }
 
     #first .cards .phone-container img {
         translate: 0px 65px;
     }
-     #second .columns {
+
+    #second .columns {
         display: flex;
         padding-left: 6rem;
         padding-right: 6rem;
         align-items: flex-end;
     }
 
- 
 
-    #fourd .cards{
+
+    #fourd .cards {
         display: flex;
         flex-wrap: wrap;
-       
+
     }
 
-    #fourd .card{
+    #fourd .card {
         margin-left: 40px;
         margin-right: 20px;
         width: calc(80% /3);
     }
 
-    #fifth .card{
+    #fifth .card {
         width: 50%;
     }
 
 
 
-    #fifth .card2{
+    #fifth .card2 {
         width: 30%;
     }
 
-    
-    #fifth .card2 img{
+
+    #fifth .card2 img {
         margin-left: 80px
     }
 
-    #seventh p{
+    #seventh p {
         width: 50%;
         margin: auto;
     }
 
-
-
-    @media screen and (min-width:1200px) {
-        .container {
-            max-width: 1170px;
-        }
-
-        .nav-bar{
-            display: block;
-        }
-
-        .hamburger{
-            display: none;
-        }
-
-        #seventh p{
-            width: 50%;
-            margin: auto;
-        }
-
-        #first .cards .text-container{
-            float: left;
-            width: 50%;
-            
-        }
-    
-        #first .cards .phone-container{
-            float: right;
-            
-        }
-
-        #first .cards .phone-container img {
-            translate: 0px 25px;
-    
-
-        }
-
-        #first .card{
-            height: 400px;
-        }
 }
+
+
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    #seventh p {
+        width: 50%;
+        margin: auto;
+    }
+
+    #first .cards .text-container {
+        float: left;
+        width: 50%;
+    }
+
+    #first .cards .phone-container {
+        float: right;
+    }
+
+    #first .cards .phone-container img {
+        translate: 0px 25px;
+    }
+
+    #first .card {
+        height: 400px;
+    }
+
+
 }
 
 
